@@ -61,7 +61,7 @@ public class ProjectorScreen {
     
     public void printPrice() {
         price = 1938;
-        System.out.println("\n"+"The static price is: "+price);
+        System.out.println("\n"+"Another static price is: "+price);
     }
     
     public void resetValues(int height, int width, String manufacturer, String typeOfBracing, double diagonal, double thickness, String model, boolean isColourful) {
