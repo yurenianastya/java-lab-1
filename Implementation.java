@@ -10,5 +10,7 @@ public class Implementation extends ProjectorScreen  {
         objectForResetting.resetValues(10,25,"Bosch","Standing", 19.0, 3.5, "GHOK28381", false);
         System.out.println("Resetted values: "+objectForResetting.toString());
         printStaticPrice();
+        ProjectorScreen objectForMethod = new ProjectorScreen();
+        objectForMethod.printPrice();
     }
 }
