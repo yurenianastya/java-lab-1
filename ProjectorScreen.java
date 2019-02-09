@@ -10,7 +10,7 @@ public class ProjectorScreen {
                 static int price;
 
     public ProjectorScreen() {
-        System.out.println("Default");
+        //System.out.println("Default");
     }
 
     public ProjectorScreen(int height, int width, String manufacturer, String typeOfBracing) {
@@ -57,5 +57,15 @@ public class ProjectorScreen {
     public static void printStaticPrice(){
         price = 450;
         System.out.println("\n"+"The static price is: "+price);
+    }
+    public void resetValues(int height, int width, String manufacturer, String typeOfBracing, double diagonal, double thickness, String model, boolean isColourful) {
+        this.height = height;
+        this.width = width;
+        this.manufacturer = manufacturer;
+        this.typeOfBracing = typeOfBracing;
+        this.diagonal = diagonal;
+        this.thickness = thickness;
+        this.isColourful = isColourful;
+        this.model = model;
     }
 }

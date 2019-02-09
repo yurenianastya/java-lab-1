@@ -6,6 +6,9 @@ public class Implementation extends ProjectorScreen  {
         System.out.println("First one: " + smartXiaomiScreen.toString());
         System.out.println("Second one: " + iProjectorScreen.toString());
         System.out.println("Third one: " + anotherProjectorScreen.toString());
+        ProjectorScreen objectForResetting = new ProjectorScreen();
+        objectForResetting.resetValues(10,25,"Bosch","Standing", 19.0, 3.5, "GHOK28381", false);
+        System.out.println("Resetted values: "+objectForResetting.toString());
         printStaticPrice();
     }
 }
