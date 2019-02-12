@@ -1,4 +1,4 @@
-public class Implementation extends ProjectorScreen  {
+public class Implementation {
     public static void main(String[] args) {
         ProjectorScreen smartXiaomiScreen = new ProjectorScreen(13, 18, "Xiaomi", "Wall", 16.8,
                 5.2, "DD163", true);
