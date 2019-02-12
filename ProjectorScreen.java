@@ -1,13 +1,13 @@
 public class ProjectorScreen {
+    protected String model;
+    protected boolean isColourful;
     private int height;
     private int width;
     private String manufacturer;
     private String typeOfBracing;
     private double diagonal;
     private double thickness;
-        protected String model;
-        protected boolean isColourful;
-            static int price;
+    static int price;
 
     public ProjectorScreen() {
         //System.out.println("Default");
